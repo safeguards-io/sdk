@@ -8,11 +8,10 @@
     "test": "nyc mocha --forbid-only \"test/*.test.js\"",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
-  "dependencies": {
-  },
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.2.2",
     "nyc": "^14.1.1"
-  }
+  },
+  "homepage": "https://github.com/safeguards-io/sdk"
 }
